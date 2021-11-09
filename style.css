@@ -1,0 +1,31 @@
+body {
+    background-image: url(https://wallpaperaccess.com/full/6545231.jpg)
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.btn-success:hover {
+    background-color: crimson;
+}
+
+canvas {
+    animation-name: exmaple;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border: dotted;
+}
+
+@keyframes exmaple {
+    from {
+        box-shadow: 15px 10px 38px rgb(251, 255, 0);
+    }
+    to {
+        box-shadow: 15px 10px 38px rgb(255, 182, 194);
+    }
+}
+
+h1 {
+    color: white;
+}
